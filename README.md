@@ -1,5 +1,4 @@
 #linkCollector
----
 
 [太陽花怪獸] 的模板。原 repo 被刪除了只好自己生了...
 
@@ -10,19 +9,17 @@
 
 
 #Installation
---------------
 
 直接 fork 轉成 gh-pages 就可以了。
 
 後端的部份請逕行修改 /scripts/data.js。
 
-## TODOs
+### TODOs
  - Responsive Web Design.
  - 實作 backend, using ethercalc or google shpreadsheets.
 
 
 #License
-----
 
 ### MIT License
  - jquery-1.11.1.min
