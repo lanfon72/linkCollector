@@ -1,0 +1,828 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		background: #111111;
+		font-family:'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic","微軟正黑體","Microsoft JhengHei";
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: white;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: rgba(0,0,0,.8);
+	}
+
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+		
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+	.box1,
+	.box2,
+	.box3,
+	.box4
+	{
+		width: 235px;
+	}
+	
+	.box1,
+	.box2,
+	.box3,
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.box4
+	{
+		float: right;
+	}
+	
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 384px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,
+	.tbox2
+	{
+		width: 575px;
+	}
+	
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.7em;
+	}
+	
+	.title .byline
+	{
+		font-size: 1.3em;
+		color: rgba(255,255,255,0.60);
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+		width: 1024px;
+		overflow: hidden;
+		margin: 50px auto 50px auto;
+	}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #111111 url(images/header-bg.png) no-repeat center;
+		background-size: cover;
+	}
+	
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 3.6em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .active a
+	{
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+	}
+	
+	#menu .icon
+	{
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background: #111111 ;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: rgba(255,255,255,1);
+	}
+
+.box
+{
+	padding: 3em 2em 2em 2em;
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
+		text-align: center;
+}
+ .add-collect input[type="radio"] {
+    display: none;
+}
+
+.add-collect input[type="radio"] + label {
+    display: inline-block;
+    background-color: #ccc;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.add-collect input[type="radio"]:checked + label {
+    background-color: #f00;
+    color: #fff;
+}
+
+.add-collect input:focus{
+	border: #42A6BD 3px solid;
+	box-shadow: none;
+}
+
+.add-collect input {
+    margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 8px;
+	border: none;
+	height: 40px;
+	width: 380px;
+	background: #e5f6f7;
+	border: #e5f6f7 3px solid;
+	box-shadow: none;
+	font-family:'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic","微軟正黑體","Microsoft JhengHei";
+	color: #42A6BD;
+	letter-spacing: 1px;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+#btn{
+	margin: 20px auto 30px auto;
+	width: 100px;
+	height: 30px;
+	background: #42A6BD;
+	padding: 15px 10px;
+	color: #e5f6f7;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.collect-pool-wrap{
+	width: 100%;
+	overflow: hidden;
+}
+
+.collect-pool{
+	width: 85%;
+	overflow: hidden;
+	margin: 50px auto 50px auto;
+}
+
+.collect-pool .wish{
+	padding: 3px 10px;
+	margin:0px 15px 30px 0px;
+	background: rgba(255,255,255,0.6);
+	float: left;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #333;
+}
+.collect-pool .wish-pic{
+	padding: 5px 15px;
+	margin:0px 15px 30px 0px;
+	background: #FFCECD;
+	float: left;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #333;
+}
+.collect-pool .wish-video{
+	padding: 5px 15px;
+	margin:0px 15px 30px 0px;
+	background: #FEFFCD;
+	float: left;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #333;
+}
+.collect-pool .wish-word{
+	padding: 5px 15px;
+	margin:0px 15px 30px 0px;
+	background: #CDFFCE;
+	float: left;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #333;
+}
+.collect-pool .wish-news{
+	padding: 5px 15px;
+	margin:0px 15px 30px 0px;
+	background: #CDE5FF;
+	float: left;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #333;
+}
+.collect-pool .wish-web{
+	padding: 5px 15px;
+	margin:0px 15px 30px 0px;
+	background: #E7CDFF;
+	float: left;
+	border-radius: 5px;
+	font-size: 26px;
+	line-height: 1.5;
+	color: #333;
+}
+
+#btn-pic{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: #FFCECD;
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btn-video{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: #FEFFCD;
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btn-word{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: #CDFFCE;
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btn-news{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: #CDE5FF;
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btn-web{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: #E7CDFF;
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+#btn-all{
+	margin: 20px auto 30px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 60px;
+	height: 30px;
+	background: rgba(255,255,255,0.6);
+	padding: 15px 10px;
+	color: #666666;
+	line-height: 1;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+.indexbox
+{
+	padding: 3em 2em 2em 2em;
+	margin: 0px auto;
+	width: 600px;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
+	text-align: left;
+	filter: Alpha(Opacity=30);
+	background-color:#FCF5EE;
+	color: #6F6F6F;
+}
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(images/overlay.png) repeat 0 0;}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(images/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(images/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(images/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(images/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(images/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(images/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(images/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+@import url("http://www.simile-widgets.org/styles/common.css");
+
+.timeline-default {
+    font-family: Trebuchet MS, Helvetica, Arial, sans serif;
+    font-size: 8pt;
+    border: 1px solid #aaa;
+}
+
+.tape-special_event, .small-special_event { background-color: orange; }
+
+
+#time {
+	border: none;
+	border-radius: 0px;
+	height: 30px;
+	width: 200px;
+	background: #ceddde;
+	border: #ceddde 3px solid;
+	box-shadow: none;
+	font-family:'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic","微軟正黑體","Microsoft JhengHei";
+	color: #141616;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 10px;
+	line-height: 1.5;
+	text-align: left;
+	margin: 20px auto 30px auto;
+}
+
+
+
+#time:focus{
+	border: #42A6BD 3px solid;
+	box-shadow: none;
+}
+
+#des {
+	border: none;
+	border-radius: 0px;
+	height: 200px;
+	width: 400px;
+	background: #ceddde;
+	border: #ceddde 3px solid;
+	box-shadow: none;
+	font-family:'Raleway',"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic","微軟正黑體","Microsoft JhengHei";
+	color: #141616;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 10px;
+	line-height: 1.5;
+	text-align: left;
+	margin: 20px auto 30px auto;
+}
+
+#des:focus{
+	border: #42A6BD 3px solid;
+	box-shadow: none;
+}
+
+.simileAjax-bubble-container simileAjax-bubble-container-pngTranslucent{
+    color: black;
+	}
