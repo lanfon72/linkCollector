@@ -3,12 +3,12 @@
 [太陽花怪獸] 的模板。原 repo 被刪除了只好自己生了...
 
 
-##Version
+### Version
 0.1
 
 
 
-#Installation
+### Installation
 
 直接 fork 轉成 gh-pages 就可以了。
 
