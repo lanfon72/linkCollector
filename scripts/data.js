@@ -10,6 +10,7 @@ $(document).ready(function() {
         }).click(function(){
             $(this).next('div.ab_content').slideToggle();
         }).siblings('div.ab_content').hide();
+    });
 });
 
 /*
