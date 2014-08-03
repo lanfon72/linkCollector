@@ -1,16 +1,15 @@
-linkCollector
-=========
+#linkCollector
+---
 
 [太陽花怪獸] 的模板。原 repo 被刪除了只好自己生了...
 
 
-Version
-----
-
+##Version
 0.1
 
 
-Installation
+
+#Installation
 --------------
 
 直接 fork 轉成 gh-pages 就可以了。
@@ -21,12 +20,26 @@ Installation
  - Responsive Web Design.
  - 實作 backend, using ethercalc or google shpreadsheets.
 
-License
+
+#License
 ----
 
-參照[太陽花怪獸]，原授權是[Minyan Hsieh] CC-BY-NC4.0 (Design Framework)，後續修正授權以 CC0 1.0 Universal 釋出。
+### MIT License
+ - jquery-1.11.1.min
+ - jquery-ui-1.8.19.custom.min
+ - jquery.colorbox
+ - fonts.css
 
-**Free Software, Hell Yeah!**
+### Apache Lincense
+ - bootstrap.js
+
+### CC-BY-NC4.0 [Minyan Hsieh]
+ - framework design
+ - default.css
+ - data.js
+
+### CC0 1.0 Universal
+ - after initial, 新增的功能。
 
 [Minyan Hsieh]:https://www.facebook.com/minyann.hsieh
 [太陽花怪獸]:http://time-fumao.rhcloud.com/index.html
