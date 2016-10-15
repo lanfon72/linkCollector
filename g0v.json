@@ -1,0 +1,20 @@
+{
+  "repo" :"lanfon72/linkCollector",
+  "author" : "lanfon72",
+  "status" : "",
+  "name": "linkCollector",
+  "name_zh": "linkCollector - 資訊補食獸",
+  "description": "linkCollector",
+  "description_zh": "linkCollector - 資訊補食獸",
+  "homepage" : "http://time-fumao.rhcloud.com/index.html",
+  "thumbnail" : "",
+  "document": "",
+  "repository": "https://github.com/lanfon72/linkCollector",
+  "licenses": [],
+  "keywords": [],
+  "audience": [],
+  "products" :[],
+  "partOf": "",
+  "contributors" :[],
+  "needs" : []
+}
